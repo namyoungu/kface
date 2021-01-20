@@ -25,7 +25,8 @@ def configuration():
     config.embedding_size = 256             # feature vector dimension
 
     # parameters for "test.py"
-    config.pretrained_model = "/Users/keepsnam/NIA/NIA_FaceRecogSample/work/1.pth.tar"      # trained model full path
+    #config.pretrained_model = "/Users/keepsnam/NIA/NIA_FaceRecogSample/work/1.pth.tar"      # trained model full path
+    config.pretrained_model = "/models/LightCNN/"
     config.refImg = "/Users/keepsnam/NIA/C7.jpg"                                            # reference image full path
     config.queryImg = "/Users/keepsnam/NIA/C8.jpg"                                          # query image full path
     return config
