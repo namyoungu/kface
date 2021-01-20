@@ -26,7 +26,7 @@ def configuration():
 
     # parameters for "test.py"
     #config.pretrained_model = "/Users/keepsnam/NIA/NIA_FaceRecogSample/work/1.pth.tar"      # trained model full path
-    config.pretrained_model = "/models/LightCNN/"
+    config.pretrained_model = "/models/LightCNN/light_cnn.pth.tar/"
     config.refImg = "/image/KakaoTalk_20210121_010206616.jpg"                                            # reference image full path
     config.queryImg = "/image/KakaoTalk_20210121_010206616_01.jpg"                                          # query image full path
     return config
