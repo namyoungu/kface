@@ -4,7 +4,7 @@ def configuration():
     config = dict()
     #config.imagePath = "/Users/keepsnam/NIA/Test/"                                   # directory path of image data
     #config.modelSavePath = "/Users/keepsnam/NIA/NIA_FaceRecogSample/work/"    # directory path for model save / log
-    config.imagePath = "f:/cropped_data/"   # directory path of image data
+    config.imagePath = "f:/image/"   # directory path of image data
     config.modelSavePath = "./work/"        # directory path for model save / log
     config.batch_size = 20                  # mini batch size
     config.epochs = 30                      # total epochs number for training
